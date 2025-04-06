@@ -27,7 +27,7 @@ Esta es una guía de las cosas que estuve aprendiendo mientras escribía papers 
 
 Hay cosas que directamente no podés hacer con \LaTeX, como por ejemplo agregar emojis. La alternativa es LuaTeX, pero los journals probablemente no te permitan usarlo. Así que por ahora no hay emojis en los papers :(
 
-Esta guía no te va a explicar la sintaxis básica de \LaTeX. Lo mejor para aprender eso son los tutoriales de Overleaf, por ejemplo \url{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}, o directamente ver el código fuente de esta guía en \todo{Poner link a github}.
+Esta guía no te va a explicar la sintaxis básica de \LaTeX. Lo mejor para aprender eso son los tutoriales de Overleaf, por ejemplo \url{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}, o directamente ver el código fuente de esta guía en \url{https://github.com/ericbrandwein/tips-latex}.
 
 \newpage
 \tableofcontents
@@ -190,7 +190,7 @@ Tratá de tener muchos lemas, dividiendo las demostraciones de los teoremas en c
 \section{Usando \LaTeX}
 \LaTeX\ funciona con paquetes que se agregan con \verb|\usepackage|. Una distribución completa debería tener todos los paquetes de \href{https://ctan.org/}{CTAN}. Si tenés dudas de cómo usar un paquete, en esa página va a estar la documentación, aunque a veces es más fácil buscar en internet cómo se usa.
 
-El código fuente de esta guía está en \todo{Poner link a github}. Copiate de los paquetes que uso acá para lo que necesites.
+El código fuente de esta guía está en \url{https://github.com/ericbrandwein/tips-latex}. Copiate de los paquetes que uso acá para lo que necesites.
 
 También podés copiarte de lo que hacen otros papers. En arXiv te podés descargar el código fuente del paper que quieras. Ver \cref{fig:tex-source-en-arXiv}.
 
@@ -282,6 +282,10 @@ Muchas veces vas a querer escribir algo en una fórmula y no vas a saber cómo. 
 
 No empieces una frase con una fórmula, y separá las fórmulas poniéndoles texto en el medio. En vez de  ``For every graph $G$, $E(G) \subseteq 2^{V(G)}$.'', escribí ``For every graph $G$, we have that $E(G) \subseteq 2^{V(G)}$.'', o algo así.
 
+
+\subsection{Algoritmos}
+Leer \url{https://www.overleaf.com/learn/latex/Algorithms}.
+
 \subsection{Comandos}
 A veces vas a usar una letra para un objeto matemático que no te gusta, y la vas a querer cambiar después de haber escrito 10 páginas de tu paper. Por eso tenés que aprender a usar \href{https://www.overleaf.com/learn/latex/Commands}{comandos}. Básicamente lo que hace \LaTeX\ es reemplazar el comando por lo que escribiste.
 
@@ -312,7 +316,8 @@ Lo mejor es no tener todo el texto en un solo lugar. Especialmente porque muy po
         &f\parens{\sum_{i = 1}^{20} i^2}\\
         &f\parens*{\sum_{i = 1}^{20} i^2}
     \end{align*}
-    \item\href{https://texdoc.org/serve/geometry.pdf/0}{geometry} -- Para cambiar los márgenes y el tamaño de página. No se usa mucho en journals porque ya te lo definen ellos. Leer \url{https://www.overleaf.com/learn/latex/Page_size_and_margins}.
+    \item\href{https://texdoc.org/serve/geometry.pdf/0}{\texttt{geometry}} -- Para cambiar los márgenes y el tamaño de página. No se usa mucho en journals porque ya te lo definen ellos. Leer \url{https://www.overleaf.com/learn/latex/Page_size_and_margins}.
+    \item\href{https://ctan.org/pkg/minted?lang=en}{\texttt{minted}} -- Para poner código fuente con colorcitos. Leer \url{https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted}.
     \item Muchos más, no voy a poner todos.
 \end{itemize}
 
