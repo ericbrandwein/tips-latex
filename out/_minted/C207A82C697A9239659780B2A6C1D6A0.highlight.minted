@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+ \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}definition\PYG{n+nb}{\PYGZcb{}}[eriquito]
+    \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}def:eriquito\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}emph}\PYG{n+nb}{\PYGZob{}}Eriquito\PYG{n+nb}{\PYGZcb{}} es un doctorando en computación.
+ \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}definition\PYG{n+nb}{\PYGZcb{}}
+\end{MintedVerbatim}
