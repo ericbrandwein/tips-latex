@@ -1,6 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\}]
- \PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}hyperref\PYG{n+nb}{\PYGZcb{}}
- \PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}varioref\PYG{n+nb}{\PYGZcb{}}
- \PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}amsthm\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} De paso te traés el entorno proof.}
- \PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[capitalise]}\PYG{n+nb}{\PYGZob{}}cleveref\PYG{n+nb}{\PYGZcb{}}
-\end{MintedVerbatim}

@@ -1,4 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\}]
- For every graph \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}graph}\PYG{l+s}{\PYGZdl{}}, there exists an induced
- subgraph \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}inducedSubgraph}\PYG{l+s}{\PYGZdl{}} of \PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}graph}\PYG{l+s}{\PYGZdl{}}.
-\end{MintedVerbatim}

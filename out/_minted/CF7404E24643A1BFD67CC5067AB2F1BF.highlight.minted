@@ -1,6 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\}]
- \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}lemma\PYG{n+nb}{\PYGZcb{}}[Teorema de eriquito]
-    \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fact:teorema\PYGZhy{}de\PYGZhy{}eriquito\PYG{n+nb}{\PYGZcb{}}
-    \PYG{l+s}{\PYGZdl{}}\PYG{l+m}{1}\PYG{o}{+}\PYG{l+m}{1}\PYG{n+nb}{ }\PYG{o}{=}\PYG{n+nb}{ }\PYG{l+m}{2}\PYG{l+s}{\PYGZdl{}}.
- \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}lemma\PYG{n+nb}{\PYGZcb{}}
-\end{MintedVerbatim}

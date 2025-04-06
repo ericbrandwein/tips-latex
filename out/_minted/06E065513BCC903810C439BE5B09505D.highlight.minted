@@ -1,3 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\}]
-\PYG{+w}{ }\PYGZdl{}\PYG{+w}{ }latexmk\PYG{+w}{ }\PYGZhy{}pdf\PYG{+w}{ }main.tex
-\end{MintedVerbatim}
